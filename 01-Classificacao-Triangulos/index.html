@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Classificação de Triângulos</title>
+</head>
+<body>
+    <header>
+        <h1>Classificação dos Triângulos</h1>
+        <h2>Insira as medidas dos lados do seu triângulo</h2>
+    </header>
+
+    <section>
+        <div>
+            <p>Lado A:
+                <input type="number" name="txtNum1" id="txtNum1">
+            </p>
+
+            <p>Lado B:
+                <input type="number" name="txtNum2" id="txtNum2">
+            </p>
+
+            <p>Lado C:
+                 <input type="number" name="txtNum3" id="txtNum3">
+            </p>
+
+            <p>
+                <input id='btn-classificar' type="button" value="Classificar" onclick="classificarTriangulo()">
+            </p>
+
+        </div >
+
+        <div id='res'>
+  
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Raquel Galvão</p>
+    </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
